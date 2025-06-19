@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+
+.max-w-2xl.mx-content.px-4.flex.flex-col.items-center.h-full {
+    width: max-content;
+}
+
+
