@@ -3,7 +3,7 @@ import colors from '../config/colors'
 import Modal from '../layout/Modal'
 import FreeQuote from './FreeQuote'
 
-const Button = ({title}) => {
+const Button = ({title,style}) => {
   const [quoteModalOpen, setQuoteModalOpen] = useState(false);
   const handleQuoteClick = () => {
     setQuoteModalOpen(true);
@@ -55,6 +55,13 @@ const Button = ({title}) => {
     
     </div>
   )
+}
+Button.defaultProps = {
+  style: {
+    background: `linear-gradient(to right, ${colors.primary}95, ${colors.secondary}95)`,
+    border: `1px solid ${colors.primary}95`,
+    color: `#fff`
+  }
 }
 
 export default Button

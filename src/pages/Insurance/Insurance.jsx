@@ -1,16 +1,16 @@
 import React from 'react'
-import Layout from '../layout/Layout'
-import insuranceHero from "../assets/insurance.jpg"
+import Layout from '../../layout/Layout'
+import insuranceHero from "../../assets/insurance.jpg"
 
-import lifeInsurance from '../assets/lifeinsurance.jfif'
-import funeralInsurance from '../assets/funeral.jfif'
-import carInsurance from '../assets/car.jfif'
-import Button from '../component/Button'
+import lifeInsurance from "../../assets/lifeinsurance.jfif"
+import funeralInsurance from "../../assets/funeral.jfif"
+import carInsurance from '../../assets/car.jfif'
+import Button from '../../component/Button'
 
 const Insurance = () => {
   return (
     <Layout>
-      {/* Hero Section with structured data for better SEO */}
+   
       <section className="relative w-full h-[50vh] sm:h-[70vh]" itemScope itemType="https://schema.org/FinancialProduct">
         <picture>
           <source srcSet={insuranceHero} type="image/avif" />
@@ -37,7 +37,7 @@ const Insurance = () => {
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 relative">
           <span className="relative inline-block">
             Our Insurance Products
-            <span className="absolute bottom-0 left-0 w-full h-1 bg-[#AF1F37] transform -translate-y-2"></span>
+          
           </span>
         </h2>
 

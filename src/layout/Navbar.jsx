@@ -23,7 +23,7 @@ const Navbar = () => {
       name: 'Insurance', 
       path: '/insurance',
       dropdown: [
-        { name: 'Auto Insurance', path: '#auto' },
+        { name: 'Auto Insurance', path: '/auto' },
         { name: 'Medical Insurance', path: '#medical' },
         { name: 'Financial Insurance', path: '#financial' },
         { name: 'Business Insurance', path: '#business' }
@@ -299,7 +299,7 @@ const Navbar = () => {
   onClose={handleQuoteCancel}
   title="Get Your Free Quote"
   size="md"
-  className="max-h-[90vh] sm:max-h-[85vh] min-h-[200px] overflow-y-auto"
+  className="max-h-full max-w-full sm:max-h-[85vh] min-h-[200px] overflow-y-auto"
 >
 
         <QuoteForm 
