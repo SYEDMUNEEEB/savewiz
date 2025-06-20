@@ -5,7 +5,7 @@ import Doctor from '../../assets/doctor.jpg'
 import LadyDoctor from '../../assets/lady.jpg'
 import Button from '../../component/Button'
 import Ear from '../../assets/ear.jpg'
-import Pet from '../../assets/pet.jpg'
+import Pet from '../../assets/Pet.jpg'
 
 const DoctorInsurance = () => {
   const MedicalInsurance = [
