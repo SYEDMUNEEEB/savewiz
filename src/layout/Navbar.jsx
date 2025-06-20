@@ -24,9 +24,9 @@ const Navbar = () => {
       path: '/insurance',
       dropdown: [
         { name: 'Auto Insurance', path: '/auto' },
-        { name: 'Medical Insurance', path: '#medical' },
-        { name: 'Financial Insurance', path: '#financial' },
-        { name: 'Business Insurance', path: '#business' }
+        { name: 'Medical Insurance', path: '/medical' },
+        { name: 'Financial Insurance', path: '/financial' },
+        { name: 'Business Insurance', path: '/business' }
       ]
     },
     { name: 'POPI', path: '/popi' },
@@ -176,8 +176,8 @@ const Navbar = () => {
               onClick={handleQuoteClick}
               className="hidden lg:block relative cursor-pointer overflow-hidden group text-white px-4 xl:px-6 py-2 rounded-lg text-sm xl:text-base font-semibold shadow-md transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5"
               style={{ backgroundColor: primaryColor }}
-              onMouseEnter={e => e.currentTarget.style.backgroundColor = secondaryColor}
-              onMouseLeave={e => e.currentTarget.style.backgroundColor = primaryColor}
+              onMouseEnter={e => e.currentTarget.style.backgroundColor = primaryColor}
+              onMouseLeave={e => e.currentTarget.style.backgroundColor = secondaryColor}
             >
               <span className="relative z-10">FREE QUOTE</span>
             </button>

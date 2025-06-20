@@ -8,6 +8,9 @@ import PopiPage from './pages/PopiPage';
 import OptPage from './pages/OptPage';
 import Insurance from './pages/Insurance/Insurance';
 import AutoInsuracne from './pages/Insurance/AutoInsuracne';
+import Medicalinsurance  from './pages/Insurance/Medicalinsurance';
+import FinancialInsurance from './pages/Insurance/FinancialInsurance';
+import BuisnessInsurance from './pages/Insurance/BuisnessInsurance';
 function App() {
   return (
     <>
@@ -21,6 +24,9 @@ function App() {
       <Route path='/popi' element={<PopiPage/>}/>
       <Route path='/opt' element={<OptPage/>}/>
       <Route path='/auto' element={<AutoInsuracne/>}/>
+      <Route path='/medical' element={<Medicalinsurance/>}/>
+      <Route path='/financial' element={<FinancialInsurance/>}/>
+      <Route path='/business' element={<BuisnessInsurance/>}/>
       <Route path='*' element={<PageNotFound/>}/>
     </Routes>
     </BrowserRouter>
