@@ -1,23 +1,20 @@
-import React from 'react'
-import Navbar from '../layout/Navbar'
-import HeroSection from '../layout/HeroSection'
-import InsuranceCardsSection from '../layout/InsuranceCardsSection'
-import Quote from '../layout/Quote'
-import ChooseUs from '../layout/ChooseUs'
-import Footer from '../layout/Footer'
+
+import React from 'react';
+import Layout from '../layout/Layout';
+import HeroSection from '../component/HeroSection';
+import InsuranceCardsSection from '../component/InsuranceCardsSection';
+import Quote from '../component/Quote';
+import ChooseUs from '../component/ChooseUs';
 
 const Home = () => {
   return (
-    <div>
+    <Layout>
+      <HeroSection />
+      <InsuranceCardsSection />
+      <Quote />
+      <ChooseUs />
+    </Layout>
+  );
+};
 
-        <Navbar/>
-        <HeroSection/>
-        <InsuranceCardsSection/>
-        <Quote/>
-        <ChooseUs/>
-        <Footer/>
-    </div>
-  )
-}
-
-export default Home
+export default Home;

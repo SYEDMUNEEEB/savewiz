@@ -1,6 +1,6 @@
 import Hero from "../assets/04.jpg";
 import colors from "../config/colors";
-import Button from "../component/Button";
+import Button from "./Button";
 
 
 const HeroSection = () => {
@@ -47,7 +47,7 @@ const HeroSection = () => {
             </div>
 
             {/* CTA Button */}
-            <Button   />
+            <Button title="Get Your Free Quote" />
           </div>
         </div>
       </div>

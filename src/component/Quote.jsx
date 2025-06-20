@@ -1,6 +1,6 @@
 import React from "react";
 import { FaShieldAlt, FaHandHoldingUsd, FaChartLine, FaQuoteLeft } from "react-icons/fa";
-import Button from "../component/Button";
+import Button from "./Button";
 import quoteImg from "../assets/02.jpg";
 import colors from "../config/colors";
 
@@ -86,7 +86,11 @@ const Quote = () => {
                         </div>
 
                         <div className="pt-2 xs:pt-4">
-                            <Button className="w-full sm:w-auto transform hover:-translate-y-1 transition-transform duration-300 text-sm sm:text-base" />
+                            <Button
+                                className="w-full sm:w-auto transform hover:-translate-y-1 transition-transform duration-300 text-sm sm:text-base"
+                                title="Get Quote"
+                            />
+
                         </div>
                     </div>
 

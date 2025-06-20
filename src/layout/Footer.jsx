@@ -22,7 +22,7 @@ const Footer = () => {
         "Home", "POPI", "Opt In/Out", "Contact"
     ]
   return (
-    <footer className="bg-[#AF1F37] text-white pt-12 pb-8">
+    <footer className="bg-[#6b3560] text-white pt-12 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Logo and Description */}
@@ -55,7 +55,7 @@ const Footer = () => {
                 <li key={i}>
                   <a
                     href="#"
-                    className="hover:text-black transition-colors duration-200"
+                    className="hover:text-[#080606] transition-colors duration-200"
                   >
                     {item}
                   </a>
